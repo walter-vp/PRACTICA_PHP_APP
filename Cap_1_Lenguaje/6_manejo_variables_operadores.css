@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+html{
+	box-sizing: border-box;
+	font-size:62.5%;
+}
+
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+
+body{
+	margin:15px;
+	line-height: 1.6;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 2em;
+}
+
+#centrado{
+    font-size: 2em;
+    text-align: center;
+}
+
+table {
+    width: 75%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+td{
+    height: 50px;
+    text-align: left;
+    padding-left: 1em;
+}
+
+td.col_izq{
+    width: 30%;
+}
+
+td.col_der{
+    width: 70%;
+}
+
+input[type="text"] {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+
+input[type="submit"], input[type="reset"] {
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: hsl(0, 0%, 100%); 
+    color: black; 
+    border: 2px solid hsl(122, 39%, 49%);
+}
+
+input[type="submit"]:hover{
+    background-color: hsl(122, 39%, 49%);
+    color: hsl(0, 0%, 100%);
+}
+
+input[type="reset"] {
+    background-color: hsl(0, 0%, 100%); 
+    color: black; 
+    border: 2px solid hsl(4, 90%, 58%);
+}
+
+input[type="reset"]:hover{
+    background-color: hsl(4, 90%, 58%);
+    color: hsl(0, 0%, 100%);
+}
+
+footer p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

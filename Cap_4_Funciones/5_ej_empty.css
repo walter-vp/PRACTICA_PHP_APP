@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 15px;
+    font-family: 'robot', 'sans-serif';
+    font-size: 2em;
+}
+
+img{
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#centrado{
+    font-size: 2em;
+    text-align: center;
+}
+
+table {
+    width: 75%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    height: 50px;
+    text-align: center;
+    padding-left: 1em;
+}
+
+td.col_der{
+    width: 25%;
+    text-align: right;
+    padding-right: 15px;
+}
+
+td.col_centro{
+    width: 50%;
+}
+
+td.col_izq{
+    width: 25%;
+    color: rgb(223, 49, 49);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    width: 25%;
+}
+
+#fila{
+    background: hsl(256, 54%, 69%);
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+
+input[type="submit"] {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    border: 2px solid hsl(122, 39%, 49%);
+}
+
+input[type="submit"]:hover {
+    background-color: hsl(122, 39%, 49%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
